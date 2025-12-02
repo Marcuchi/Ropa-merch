@@ -39,12 +39,12 @@ export const EVENTS: Event[] = [
 
 export const MERCH_ITEMS: MerchItem[] = [
   {
-    id: 1,
+  id: 1,
     name: "Hoodie Oficial SQ",
     price: 18500,
     imageAlt: "Hoodie negro clásico con logo Speed Queens central",
     category: "Indumentaria",
-    image: "./1.jpeg"
+    image: "https://drive.google.com/uc?export=download&id=10Bp7vcBlTJJn9YJFV_sEbZv_kJRCXA-_"
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const MERCH_ITEMS: MerchItem[] = [
     price: 8500,
     imageAlt: "Remera blanca con diseño box logo negro Speed Queens",
     category: "Indumentaria",
-    image: "./2.jpeg"
+    image: "https://drive.google.com/uc?export=download&id="
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ export const MERCH_ITEMS: MerchItem[] = [
     price: 2500,
     imageAlt: "Llavero rectangular plateado grabado",
     category: "Accesorios",
-    image: "./3.jpeg"
+    image: "https://drive.google.com/uc?export=download&id="
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ export const MERCH_ITEMS: MerchItem[] = [
     price: 1200,
     imageAlt: "Sticker cuadrado negro con logo degradado",
     category: "Accesorios",
-    image: "./4.jpeg"
+    image: "https://drive.google.com/uc?export=download&id="
   }
 ];
 
