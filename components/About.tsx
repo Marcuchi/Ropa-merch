@@ -57,7 +57,7 @@ const About: React.FC = () => {
             <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-fuchsia-500/30 rounded-2xl"></div>
             
             <img 
-              src="https://images.unsplash.com/photo-1574515598684-2a6237583e74?q=80&w=2070&auto=format&fit=crop" 
+              src="https://www.motorpy.com/wp-content/uploads/2024/04/ESTRELLA-2.jpg" 
               alt="Piloto femenina preparándose" 
               className="relative w-full rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
             />
