@@ -1,3 +1,4 @@
+
 import { Event, MerchItem, BlogPost } from './types';
 import React from 'react';
 import { Instagram } from 'lucide-react';
@@ -40,20 +41,20 @@ export const EVENTS: Event[] = [
 export const MERCH_ITEMS: MerchItem[] = [
   {
     id: 1,
-    name: "Hoodie Oficial SQ",
+    name: "Stickers",
     price: 18500,
     imageAlt: "Hoodie negro clásico con logo Speed Queens central",
     category: "Indumentaria",
-    // Usamos el formato uc?export=view para que Drive sirva la imagen directamente
-    image: "https://drive.google.com/uc?export=view&id=10Bp7vcBlTJJn9YJFV_sEbZv_kJRCXA-_"
+    // Usamos el formato thumbnail que es más robusto para visualización web directa
+    image: "https://drive.google.com/thumbnail?id=10Bp7vcBlTJJn9YJFV_sEbZv_kJRCXA-_&sz=w1000"
   },
   {
     id: 2,
-    name: "Remera Box Logo",
+    name: "Remera Hoodie Logo",
     price: 8500,
     imageAlt: "Remera blanca con diseño box logo negro Speed Queens",
     category: "Indumentaria",
-    image: "./2.jpeg"
+    image: "https://drive.google.com/thumbnail?id=13We0eOtAvPUIxWYJe5wKPmZ85x60xaSC&sz=w1000"
   },
   {
     id: 3,
@@ -61,15 +62,15 @@ export const MERCH_ITEMS: MerchItem[] = [
     price: 2500,
     imageAlt: "Llavero rectangular plateado grabado",
     category: "Accesorios",
-    image: "./3.jpeg"
+    image: "https://drive.google.com/thumbnail?id=1snGbPaMzfEm_Fh9__qpYNTKfL5XI8JFj&sz=w1000"
   },
   {
     id: 4,
-    name: "Sticker Oficial",
+    name: "Gorra Oficial",
     price: 1200,
     imageAlt: "Sticker cuadrado negro con logo degradado",
     category: "Accesorios",
-    image: "./4.jpeg"
+    image: "https://drive.google.com/thumbnail?id=1Gv66_1Lh01bxeTOievYJKm9uGkFmS35l&sz=w1000"
   }
 ];
 
